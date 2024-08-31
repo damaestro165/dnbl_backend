@@ -435,13 +435,19 @@ export interface ApiProductProduct extends Schema.CollectionType {
   };
   attributes: {
     name: Attribute.String;
-    Description: Attribute.Text;
-    price: Attribute.Float;
+    description: Attribute.Text;
     images: Attribute.Media<'images', true>;
-    number_of_stock: Attribute.Integer;
-    category: Attribute.Enumeration<['women', 'men', 'children']>;
     colors: Attribute.JSON;
     sizes: Attribute.JSON;
+    oldPrice: Attribute.BigInteger;
+    newPrice: Attribute.BigInteger;
+    material: Attribute.String;
+    rating: Attribute.Decimal;
+    reviewCount: Attribute.Integer;
+    arrivalDate: Attribute.String;
+    features: Attribute.JSON;
+    categories: Attribute.JSON;
+    productQuantity: Attribute.BigInteger;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

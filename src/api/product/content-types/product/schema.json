@@ -50,9 +50,6 @@
     "arrivalDate": {
       "type": "string"
     },
-    "availableDate": {
-      "type": "date"
-    },
     "features": {
       "type": "json"
     },
