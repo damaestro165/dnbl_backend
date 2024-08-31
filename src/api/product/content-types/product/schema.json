@@ -15,11 +15,8 @@
     "name": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "text"
-    },
-    "price": {
-      "type": "float"
     },
     "images": {
       "type": "media",
@@ -29,22 +26,41 @@
         "images"
       ]
     },
-    "number_of_stock": {
-      "type": "integer"
-    },
-    "category": {
-      "type": "enumeration",
-      "enum": [
-        "women",
-        "men",
-        "children"
-      ]
-    },
     "colors": {
       "type": "json"
     },
     "sizes": {
       "type": "json"
+    },
+    "oldPrice": {
+      "type": "biginteger"
+    },
+    "newPrice": {
+      "type": "biginteger"
+    },
+    "material": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "reviewCount": {
+      "type": "integer"
+    },
+    "arrivalDate": {
+      "type": "string"
+    },
+    "availableDate": {
+      "type": "date"
+    },
+    "features": {
+      "type": "json"
+    },
+    "categories": {
+      "type": "json"
+    },
+    "productQuantity": {
+      "type": "biginteger"
     }
   }
 }
