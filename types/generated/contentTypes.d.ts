@@ -442,9 +442,6 @@ export interface ApiProductProduct extends Schema.CollectionType {
     oldPrice: Attribute.BigInteger;
     newPrice: Attribute.BigInteger;
     material: Attribute.String;
-    rating: Attribute.Decimal;
-    reviewCount: Attribute.Integer;
-    arrivalDate: Attribute.String;
     features: Attribute.JSON;
     categories: Attribute.JSON;
     productQuantity: Attribute.BigInteger;

@@ -41,15 +41,6 @@
     "material": {
       "type": "string"
     },
-    "rating": {
-      "type": "decimal"
-    },
-    "reviewCount": {
-      "type": "integer"
-    },
-    "arrivalDate": {
-      "type": "string"
-    },
     "features": {
       "type": "json"
     },
